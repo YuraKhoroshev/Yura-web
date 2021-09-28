@@ -6,7 +6,6 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
-        
         <title>Веб-разработчик Хорошев Ю. В.</title>
     </head>
     <body>
@@ -15,6 +14,27 @@
             <button class="a"><a href="form.html">Форма обратной связи</a></button>
         </header>
         
+        <main class="auth">
+            <h3>Авторизация</h3>
+            
+            <form method="POST" action="https://httpbin.org/post" enctype="multipart/form-data">
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="ivan@gmail.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <input type="submit" value="Отправить">
+
+            </form>
+            
+        </main>
+
         <footer>
             <div class="footer">
                 <p>Сайт сделал студент Московского Политеха группы 201-351 Хорошев Юрий</p>

@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-size: 20pt;
+    font-family: 'Urbanist', sans-serif;
+    background: cornsilk url(imges/back.jpg) top center;
+    
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 97.4%;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 15pt;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 97.4%;
+    
+  
+}
+
+main {
+    text-align: center;
+    width: max-content;
+    display: block;
+    margin: auto;
+    color: rgb(217, 242, 243);  
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    padding:  10px;
+}
+
+h3 {
+    margin: 10px;
+}
+.a {
+    display: inline-block;
+    text-decoration: none;
+    padding: .3em 1em;
+    border: 1px solid #aaa;
+    border-radius: 100px;
+    outline: none;
+    background: #d6dbbf no-repeat;
+    background-image:
+        linear-gradient(to left, #aaa, #aaa),
+        linear-gradient(to left, #feffe8, #feffe8),
+        linear-gradient(#feffe8, #d6dbbf);
+    
+    background-size: 1px 100%, 1px 100%, auto auto;
+    overflow: hidden;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24pt;
+    width: max-content;
+    margin: 20px auto;
+    
+  }
+  .a:hover {
+    background-color: #fdfd9f;
+    background-image:
+        linear-gradient(to left, #aaa, #aaa),
+        linear-gradient(to left, #feffe8, #feffe8),
+        linear-gradient(#fffce7, #fdfd9f);
+  }
+
+  .auth {
+    text-align: center;
+    width: max-content;
+    display: block;
+    margin: 10% auto;
+  }
