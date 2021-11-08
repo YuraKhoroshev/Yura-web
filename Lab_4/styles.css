@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    height: 100%;
+}
+
+body ul {
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+body li {
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+body a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+}
+
